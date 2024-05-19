@@ -1,0 +1,60 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  flex-direction: column;
+  margin: 80px 550px;
+  padding: 35px 0px 35px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.username-input {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 70%;
+  padding: 5px 5px;
+}
+
+.username-input input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.email-input {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 70%;
+  padding: 5px 5px;
+}
+
+.email-input input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit-button {
+  margin-top: 90px;
+}
+
+.submit-button input {
+  padding: 9px 25px;
+  border: 2px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: black;
+}
+
+p {
+  color: red;
+}
